@@ -1,0 +1,148 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #242323;
+  
+    
+}
+
+.signin{
+    margin-top:50px;
+    display:grid;
+    width:1100px;
+    height:700px;
+
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    grid-template-columns: 1.4fr 0.2fr 1.4fr;
+    grid-auto-columns: minmax(30px,auto);
+    grid-template-rows: 1fr;
+    grid-auto-rows: minmax(20px,auto);
+    border-top-right-radius: 30px;
+    background: #242323;
+}
+.spare1{
+    background-image: url("../images/b2d9f016c1d40c57b267a379b2c422ae.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    border-top-color: #0e0f0d;
+    border:2px solid red ;
+}
+
+.spare2{
+      background-image: url("../images/f2a526482bf86f78a63457f4b0ebf735.jpg");
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-color: #0e0f0d;
+    border:2px solid yellow;
+}
+P{
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color:rgb(242, 96, 96);
+  font-size: 1.1rem;
+  
+  font-family: "Outfit", sans-serif;
+  
+}
+.ok{
+    width:70px;
+    height:40px;
+}
+
+.logo{
+    background-image: url("../images/1600w-Sj0mE2uiQ0g.webp");
+
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    width:150px;
+    margin-top:15px;
+    height:150px;
+    border-radius: 50px;
+    border:2px solid rgb(248, 236, 10);
+    border:1px solid green;
+}
+
+.main{
+
+    display: flex;
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    text-align: center;
+    background: #333330;
+    margin-top:50px; 
+    grid-template-rows: auto;
+    border:1px solid;
+    height:600px;
+
+
+}
+.name,.email,.pass,.confim,.fdone,.sdone,.tdone,.fodone{
+        border:3px solid;
+      border-image-slice: 1;
+      
+    border-image-source: linear-gradient(rgb(252, 88, 88),rgb(222, 222, 130),rgb(91, 91, 245),lightgreen);
+
+}
+.name,.email,.pass,.confim{
+    background: #b5aeae;
+    
+}
+.name:focus,.email:focus,.pass:focus,.confim:hover{
+    transform: scale(1.2);
+    background: #0e0f0d;
+    color:antiquewhite
+
+    
+    
+}
+input::placeholder {
+    background: linear-gradient(to right, rgb(255, 68, 68), yellow, rgb(119, 243, 119));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+button{
+    background: #1c2624;
+    color:white;
+     font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size:1.1rem
+
+
+}
+button:active{
+    background: #aaae9c;
+}
+.sumbit{
+    background: #473a3a;
+    width:130px;
+    height:60px;
+    margin-left:180px;
+    margin-top:20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+a{
+    color:aqua;
+    font-size:20px
+}
+.no {width:100px;
+
+height: 50px;}
+.newdiv,.sdiv,.tdiv,.fdiv{
+    width:500px;
+}

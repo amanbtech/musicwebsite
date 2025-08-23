@@ -1,0 +1,100 @@
+body{
+    background: #000;
+}
+
+.login{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+    margin-top: 50px;
+}
+.space1{
+
+    height:400px;
+    width:400px;
+   background-image: url("../images/39540853-dark-music-wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.space2{
+    /* border:1px solid red; */
+    height:600px;
+    width:400px;
+    margin-bottom: 50px;
+    background-image:url("../images/39540890-lockscreen-motivational-wallpaper-4k.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo{
+    width:180px;
+    height:180px;
+    border-radius: 50px;
+    border:1px solid red;
+
+    background-image: url("../images/1600w-Sj0mE2uiQ0g.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.content{
+    
+    display: grid;
+    width:400px;
+    height:700px;
+    background: #161616;
+    grid-template-columns: 1fr;
+    place-items: center;
+    grid-template-rows: auto;
+    border:1px solid;  
+    
+      border-image-slice: 1;
+    border-image-source: linear-gradient(rgb(252, 88, 88),rgb(222, 222, 130),rgb(91, 91, 245),lightgreen);
+}
+
+   
+
+.input{
+     width:250px;
+       font-family: "Mozilla Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+   
+    text-align: center;
+    /* border-radius: 100px; */
+    height:40px;
+    font-size: 23px;
+    border:2px solid transparent;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(red,yellow,blue,lightgreen);
+}
+p{
+    color:white;
+    font-size: 22px;
+          font-family: "Mozilla Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    
+}
+button{
+    width:170px;
+    height:60px;
+    font-size: 20px;
+          font-family: "Mozilla Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
