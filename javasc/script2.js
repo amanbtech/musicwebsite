@@ -5,10 +5,12 @@ const no=document.querySelector(".no");
 
 nextinput.addEventListener("click",()=>{
     han();
-    pleymusic();
+    pleymusic(event);
 });
 
-function pleymusic(){
+function pleymusic(event){
+    evrnt.preventDefault(); 
+            
             mus=document.getElementById("inpu");
             mus.play();
         }
