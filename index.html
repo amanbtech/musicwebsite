@@ -154,21 +154,23 @@
         <div class="content">
             <div class="logo"></div>
             <input  class="input" type="text" placeholder="enter username/email" oninput="playmusic()" >
-            <input class="input" type="text" placeholder="enter password"  oninput="playmusic()"> 
+            <input class="input" type="text" placeholder="enter password"  oninput="playmusic(event)"> 
             <button>forget password</button>
-            <p>new user ? <button onclick="goNext(event)">sign in</button></p>    
+            <p>new user ? <button onclick="goNext(event); pausemusic(event);">sign in</button></p>    
         </div>
         <div class="space2">   
         </div>
 
     </div>
-    <audio  id="inp" src="../music/sle.mp3"></audio>
+    <audio  id="inp" src="music/sle.mp3"></audio>
     <script src="javasc/script1.js">
         function playmusic(){
+           
             let mu=document.getElementById("inp");
             mu.play();
         }
-        function pausemusic(){
+        function pausemusic(event){
+            event.preventDefault();
             let mu=document.getElementById("inp");
             mu.pause();
         }
