@@ -11,9 +11,7 @@ function Z1(id) {
 
     
     const audioToPlay = document.getElementById(id);
-    if (audioToPlay(event) {
-        event.preventDefault(event);
-        
+    if (audioToPlay){
         audioToPlay.play();
     }
 }
