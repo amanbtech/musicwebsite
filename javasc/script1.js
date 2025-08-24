@@ -1,4 +1,6 @@
-function goNext(){
-  window.location.href="./index2.html";
+function goNext(event){
+  event.preventDefault();
+  window.location.href="index2.html";
 }
+
 
