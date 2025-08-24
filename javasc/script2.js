@@ -119,14 +119,21 @@ function han(){
                         subatt.textContent="submit";
                         sign.appendChild(sub);
                         sub.appendChild(subatt);
-                        sub.addEventListener("click",pase(event);
-                          function pase(event){
-                              event.preventDefault();
-                              window.location.href="index3.html";
+                        sub.addEventListener("click",()=>{
+                            pase();
+                            can(event);
+                        });
+                          function pase(){
+                             
                               
             musice=document.getElementById("inpu");
             musice.pause();
+                              
         }
+                        function con(event){
+                         event.preventDefault();
+                              window.location.href="index3.html";
+                        };
               
 
                         
