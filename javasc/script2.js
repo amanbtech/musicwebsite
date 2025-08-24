@@ -112,14 +112,18 @@ function han(){
                         let subatt=document.createElement("a");
                         sub.className="sumbit";
                         sub.classList.add("sumbit")
+                            
 ;
                        
-                        subatt.href="http://127.0.0.1:5500/index3.html";
+                        subatt.href="index3.html";
                         subatt.textContent="submit";
                         sign.appendChild(sub);
                         sub.appendChild(subatt);
-                        sub.addEventListener("click",pase);
-                          function pase(){
+                        sub.addEventListener("click",pase(event);
+                          function pase(event){
+                              event.preventDefault();
+                              window.location.href="index3.html";
+                              
             musice=document.getElementById("inpu");
             musice.pause();
         }
