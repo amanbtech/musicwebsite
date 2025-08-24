@@ -156,7 +156,7 @@
             <input  class="input" type="text" placeholder="enter username/email" oninput="playmusic()" >
             <input class="input" type="text" placeholder="enter password"  oninput="playmusic()"> 
             <button>forget password</button>
-            <p>new user ? <button onclick="pausemusic()"><a href="http://127.0.0.1:5500/index2.html">sign in</a></button></p>    
+            <p>new user ? <button onclick="goNext()">sign in</button></p>    
         </div>
         <div class="space2">   
         </div>
@@ -172,6 +172,8 @@
             let mu=document.getElementById("inp");
             mu.pause();
         }
+        function goNext(){
+        window.location.href = "index2.html";
     </script>
 
  
